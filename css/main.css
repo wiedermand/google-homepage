@@ -1,0 +1,193 @@
+  body {
+    font-family: arial,sans-serif;
+    color: rgb(100,100,100);
+    font-size: 13px;
+  }
+  
+  a{
+      font-size: 13px;
+      text-decoration: none;
+      color:black;
+      font-family: arial,sans-serif;
+  }
+
+  a:hover{
+      text-decoration: underline;
+  }
+
+  .hbar{
+      list-style-type: none;
+      height: 30px;
+      padding-left: 40px;
+      margin-top: 14px;
+      margin-bottom: 14px;
+  }
+
+  ul.hbar {
+    list-style-type: none;
+    height: 30px;
+    padding-left: 40px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+
+  #hl{
+    position: absolute;
+    top: 7px;
+    left: -10px;
+  }
+
+  #hl li{
+      height:30px;
+  }
+
+
+  #hr{
+    position: absolute;
+    right: 10px;
+    top: 7px;
+  }
+
+  li{
+      display:inline;
+      padding-right: 10px;
+  }
+  
+  li a {
+    text-decoration: none;
+    padding-right:5px;
+    color: rgb(100,100,100);
+  }
+  
+  li a:hover {
+    text-decoration:underline;
+  }
+
+  button#sign_in {
+    width: 80px;
+    background: rgb(37, 130, 236);
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    border-radius: 3px;
+  }
+
+  button#sign_in:hover {
+    border: 0.5px solid #e6e6e6;
+  }
+
+  #sign_in a{
+    font-weight: bold;
+    color: white;
+  }
+
+  li img {
+    position: relative;
+    top: 8px;
+    height: 20px;
+    width: 20px;
+    opacity: 0.7;
+  }
+
+  li img:hover{
+      opacity: 1;
+  }
+
+  /* Main Area - Logo, Search, Buttons */
+
+  .main{
+    text-align: center;
+    padding-bottom: 35px;
+  }
+
+  .logo{
+    height: 233px;
+    margin-top: 89px;
+    display: inline-block;
+  }
+
+  img#googlelogo {
+    height: 91px;
+    width: 272px;
+    padding-top: 109px;
+  }
+
+  .search {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #input_field {
+    border: 0.5px solid #e6e6e6;
+    border-radius: 18px;
+    padding: 10px;
+    margin: 10px;
+    width: 470px;
+    text-indent: 35px;
+    background: url(search-24px.svg) no-repeat 10px center;
+  }
+
+  #input_field:hover {
+    box-shadow: darkgray 1px 1px 3px;
+  }
+
+  button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  }
+  button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+
+  }
+  button a {
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    font-size: 14px;
+  }
+
+  button a:hover{
+      text-decoration: none;
+  }
+
+  /* Footer */
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid #e4e4e4;
+    background: rgb(244, 244, 244);
+    left: -1px;
+  }
+
+  ul.fbar {
+    color: rgb(100,100,100);
+  }
+
+  #fr{
+    position: absolute;
+    right: 20px;
+    bottom: 1px;
+  }
+
+  #fl{
+    position: absolute;
+    left: -15px;
+    bottom: 1px;
+  }
